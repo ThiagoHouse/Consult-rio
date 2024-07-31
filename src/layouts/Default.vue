@@ -2,15 +2,17 @@
   <div class="layout">
 
     <!-- Navbar -->
-    <div>
-      <b-navbar class="header" toggleable="lg" type="white" variant="white" fixed="top" style="text-align:center;">
+    <header class="header">
+      <b-navbar toggleable="lg" type="white" variant="white" fixed="top">
+        <!-- <strong>
+          <g-link to="/">{{ $static.metadata.siteName }}</g-link>
+        </strong> -->
         <b-navbar-brand href="/" style="margin-left: 1%;">
-          <!-- <g-link to="/">{{ $static.metadata.siteName }}</g-link> -->
-          <g-image alt="Example image" src="~/assets/1.png" width="100%" />
+          <g-image alt="Example image" src="~/assets/logo.png" width="100%" />
         </b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-        <b-collapse id="nav-collapse" is-nav style="justify-content: space-around;">
-          <b-navbar-nav class="ml-auto">
+        <b-collapse id="nav-collapse" is-nav style="justify-content:space-around;">
+          <b-navbar-nav class="">
             <g-link class="nav__link" to="/">Home</g-link class="nav__link">
             <g-link class="nav__link" to="/sobre/">Sobre</g-link class="nav__link">
             <g-link class="nav__link" to="/">Serviços</g-link class="nav__link">
@@ -18,21 +20,20 @@
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
-    </div>
-    <div style="margin-top: 2px;">
-      <slot />
-    </div>
+    </header>
+
+    <!-- Conteúdo da página -->
+    <slot />
 
     <!-- Footer -->
     <footer>
-      <div class="container-fluid">
+      <div class="container-fluid pt-2 pb-4">
         <div class="row d-flex justify-content-around">
-          <div class="col-lg-4 p-5">
+          <div class="col-lg-4">
             <!-- <Logo height="50px" /> -->
-            <g-image alt="Example image" src="~/assets/1.png" width="100%" />
+            <g-image alt="Example image" src="~/assets/logo.png" width="100%" />
           </div>
           <div class="col-lg-3 offset-lg-1 order-lg-2 mt-4">
-
             <h6><strong>Fale conosco</strong></h6>
             E-mail: <a style="color:#636160"
               href="mailto:dayfisioterapeuta34@gmail.com.br">dayfisioterapeuta34@gmail.com.br</a><br>
@@ -66,7 +67,6 @@
         </path>
       </svg>
     </a>
-
   </div>
 </template>
 
@@ -89,16 +89,17 @@ body {
 .layout {
   /* max-width: 760px; */
   margin: 0 auto;
+  color: #292b2a;
+  font-family: Uncutsans, sans-serif;
+}
+
+strong {
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 a {
   text-decoration: none;
-}
-
-p {
-  /* font-size: 22px; */
-  color: #292b2a;
-  font-family: Uncutsans, sans-serif;
 }
 
 section {
@@ -113,12 +114,10 @@ footer {
 
 .header {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  /* margin-bottom: 20px; */
-  /* height: 80px; */
-  padding-left: 15%;
-  padding-right: 15%;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-bottom: 20px;
+  height: 80px;
   color: #003E30;
   background-color: #bff5e8;
 }

@@ -1,7 +1,5 @@
 <template>
   <Layout>
-    <h1>Sobre</h1>
-    <h3>Dayana Silva</h3>
     <section>
       <div class="row align-items-center justify-content-center justify-content-xl-between" id="row">
         <div class="col-lg-6" id="foto">
