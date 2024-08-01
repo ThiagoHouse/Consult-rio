@@ -2,18 +2,17 @@
   <Layout>
     <section>
       <div class="row align-items-center justify-content-center justify-content-xl-between" id="row">
-        <div class="col-lg-6" id="foto">
-          <h3><strong>Dayana Silva</strong></h3>
-          <h6>Fisioterapeuta</h6>
-          <g-image class="rounded-circle" alt="Example image" src="~/assets/dayana.jpeg" width="300"/>
+        <div class="col-sm-6" id="foto">
+          <g-image class="mx-auto d-block img-fluid p-8" alt="Example image" src="~/assets/dayana.jpeg"/>
         </div>
-        <div class="col-lg-6" style="padding: 10%; font-size: 16px;">
+        <div class="col-sm-6" style="padding: 10%; font-size: 16px;">
+          <h2>Dayana Silva</h2>
           <p>
-            Graduada em fisioterapia em 2014, pela universidade de Barra Mansa (UBM)
-          e pós-graduada em fisioterapia intensiva em neonatologia e pediatria pela universidade Celso Lisboa.
-          Tenho cursos de extensão na área respiratória em adulto. Instrutora de pilates.
-          Atualmente trabalho no programa melhor em casa do governo federal e plantonista no pré-hospitalar e UPA na
-          cidade de Seropédica.
+            Graduada em fisioterapia na universidade de Barra Mansa (UBM)
+          e pós-graduada em fisioterapia intensiva em neonatologia e pediatria na universidade Celso Lisboa. 
+          Possui cursos de extensão na área de fisioterapia respiratória em adultos. É também instrutora de pilates. </p>
+          <p>Atualmente trabalha no programa melhor em casa do governo federal e é plantonista no pré-hospitalar e UPA na
+          cidade de Seropédica-RJ.
           </p>
           <h3>"O esforço é único fator do qual temos pleno controle."</h3>
         </div>
