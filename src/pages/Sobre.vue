@@ -3,18 +3,21 @@
     <section>
       <div class="row align-items-center justify-content-center justify-content-xl-between" id="row">
         <div class="col-sm-6" id="foto">
-          <g-image class="mx-auto d-block img-fluid p-8" alt="Example image" src="~/assets/dayana.jpeg"/>
+          <g-image class="mx-auto d-block img-fluid p-8" alt="Example image" src="~/assets/dayana.jpeg" />
         </div>
         <div class="col-sm-6" style="padding: 10%; font-size: 16px;">
           <h2>Dayana Silva</h2>
           <p>
-            Graduada em fisioterapia na universidade de Barra Mansa (UBM)
-          e pós-graduada em fisioterapia intensiva em neonatologia e pediatria na universidade Celso Lisboa. 
-          Possui cursos de extensão na área de fisioterapia respiratória em adultos. É também instrutora de pilates. </p>
-          <p>Atualmente trabalha no programa melhor em casa do governo federal e é plantonista no pré-hospitalar e UPA na
-          cidade de Seropédica-RJ.
+            Formada em Fisioterapia pela Universidade de Barra Mansa (UBM) e pós-graduada em Fisioterapia Intensiva em
+            Neonatologia e Pediatria pela Universidade Celso Lisboa. Possui ainda cursos de extensão em Fisioterapia
+            Respiratória para adultos e é instrutora certificada de Pilates.
           </p>
-          <h3>"O esforço é único fator do qual temos pleno controle."</h3>
+          <p>
+            Atualmente, atua no Programa Melhor em Casa do Governo Federal e exerce a função de plantonista no
+            atendimento pré-hospitalar e na UPA de Seropédica, RJ.
+          </p>
+          <strong>"A determinação não é apenas o desejo de alcançar um objetivo, mas a força de persistir apesar dos
+            obstáculos."</strong>
         </div>
       </div>
     </section>
@@ -30,9 +33,7 @@ export default {
 </script>
 
 <style>
-
 #foto {
   text-align: center;
 }
-
 </style>

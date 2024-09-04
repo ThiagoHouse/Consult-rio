@@ -3,12 +3,12 @@
 
     <!-- Navbar -->
     <header class="header">
-      <b-navbar toggleable="lg" type="white" variant="white" fixed="top">
+      <b-navbar toggleable="lg" type="" variant="" fixed="top">
         <!-- <strong>
           <g-link to="/">{{ $static.metadata.siteName }}</g-link>
         </strong> -->
         <b-navbar-brand href="/" style="margin-left: 1%;">
-          <g-image alt="Example image" src="~/assets/logo.png" width="100%" />
+          <g-image alt="Example image" src="~/assets/logo.png" width="80%" />
         </b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav style="justify-content:space-around;">
@@ -113,7 +113,7 @@ section {
 }
 
 footer {
-  background-color: #bff5e8;
+  /* background-color: #bff5e8; */
 }
 
 .header {
@@ -123,7 +123,7 @@ footer {
   margin-bottom: 20px;
   height: 80px;
   color: #003E30;
-  background-color: #bff5e8;
+  background-color: #f8fdfc;
 }
 
 .nav__link {
@@ -140,10 +140,6 @@ footer {
   &:hover {
     background-color: #26d968;
     color: white;
-  }
-
-  a {
-    text-decoration: none;
   }
 }
 </style>
